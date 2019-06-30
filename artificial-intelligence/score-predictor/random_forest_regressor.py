@@ -22,7 +22,7 @@ reg.fit(X_train,y_train)
 # Testing the dataset on trained model
 y_pred = reg.predict(X_test)
 score = reg.score(X_test,y_test)*100
-print("R square value:" , y_pred)
+print("R square value:" , len(y_pred))
 
 # Testing with a custom input
 import numpy as np
@@ -30,4 +30,3 @@ test_x = [100,5,13,50,50]
 print("New Prediction input: ", test_x)
 new_prediction = reg.predict(sc.transform(np.array([[100,0,13,50,50]])))
 print("Prediction score:" , new_prediction)
-
