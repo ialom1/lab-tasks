@@ -1,13 +1,3 @@
-def custom_accuracy(y_test,y_pred,thresold):
-    right = 0
-
-    l = len(y_pred)
-    for i in range(0,l):
-        if(abs(y_pred[i]-y_test[i]) <= thresold):
-            right += 1
-    return ((right/l)*100)
-
-
 import pandas as pd
 # Importing the dataset
 dataset = pd.read_csv('data/odi.csv')
@@ -35,7 +25,6 @@ y_pred = lin.predict(X_test)
 score = lin.score(X_test,y_test)*100
 print("Accuracy on test set: ")
 print("R square value:" , score)
-# print("Custom accuracy: " , custom_accuracy(y_test,y_pred,20))
 
 # Testing with a custom input
 # Features: [runs,wickets,overs,striker,non-striker]

@@ -1,14 +1,6 @@
-def custom_accuracy(y_test,y_pred,thresold):
-    right = 0
-    l = len(y_pred)
-    for i in range(0,l):
-        if(abs(y_pred[i]-y_test[i]) <= thresold):
-            right += 1
-    return ((right/l)*100)
-
 # Importing the dataset
 import pandas as pd
-dataset = pd.read_csv('data/odi.csv')
+dataset = pd.read_csv('data/t20.csv')
 X = dataset.iloc[:,[7,8,9,12,13]].values
 y = dataset.iloc[:, 14].values
 
@@ -30,8 +22,7 @@ reg.fit(X_train,y_train)
 # Testing the dataset on trained model
 y_pred = reg.predict(X_test)
 score = reg.score(X_test,y_test)*100
-print("R square value:" , score)
-print("Custom accuracy:" , custom_accuracy(y_test,y_pred,20))
+print("R square value:" , y_pred)
 
 # Testing with a custom input
 import numpy as np
