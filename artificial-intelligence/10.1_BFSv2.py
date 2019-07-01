@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 30 11:50:54 2019
-
-@author: Sarwar
-"""
-
-# sample graph implemented as a dictionary
 graph = {'A': ['B', 'C', 'E'],
          'B': ['A','D', 'E'],
          'C': ['A', 'F', 'G'],

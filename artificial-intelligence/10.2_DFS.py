@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 30 14:03:38 2019
-
-@author: Sarwar
-"""
-
-# Python program to print DFS traversal from a 
-# given given graph 
 from collections import defaultdict 
 
 # This class represents a directed graph using 

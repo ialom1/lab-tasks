@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May 29 16:07:31 2019
-
-@author: Sarwar
-"""
-
 print("Grid size 10x10")
 sr = int(input('starting row position '))
 sc = int(input('starting column position '))

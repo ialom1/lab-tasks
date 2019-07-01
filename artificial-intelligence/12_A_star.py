@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 30 20:45:16 2019
-
-@author: Sarwar
-"""
-
 class Node():
     """A node class for A* Pathfinding"""
 

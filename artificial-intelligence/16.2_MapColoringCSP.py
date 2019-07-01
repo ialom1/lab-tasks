@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 30 21:12:45 2019
-
-@author: Sarwar
-"""
-
-#!/usr/bin/python
-
 def check_valid(graph):
     for node,nexts in graph.items():
         assert(node not in nexts) # # no node linked to itself

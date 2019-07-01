@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 9 01:12:54 2019
-
-@author: Sarwar
-
-An issue with this code is that it gives value of leading element 0
-"""
-
 from re import sub
 
 def solve(q):

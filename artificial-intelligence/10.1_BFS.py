@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 30 14:01:21 2019
-
-@author: Sarwar
-"""
-
-# Python3 Program to print BFS traversal 
-# from a given source vertex. BFS(int s) 
-# traverses vertices reachable from s. 
 from collections import defaultdict 
 
 # This class represents a directed graph 
