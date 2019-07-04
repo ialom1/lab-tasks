@@ -27,7 +27,7 @@ print("Accuracy on test set: ")
 print("R square value:" , score)
 
 # Testing with a custom input
-# Features: [gre, gpa]
+# Features: [gre, gpa, rank]
 # Label: [total]
 import numpy as np
 test_x = [800, 3.25, 2]

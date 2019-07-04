@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 9 16:45:49 2019
-
-@author: Sarwar
-"""
-
-
 from tkinter import Tk, Button
 from tkinter.font import Font
 from copy import deepcopy

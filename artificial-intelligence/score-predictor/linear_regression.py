@@ -30,7 +30,7 @@ print("R square value:" , score)
 # Features: [runs,wickets,overs,striker,non-striker]
 # Label: [total]
 import numpy as np
-test_x = [100,5,13,50,50]
+test_x = [200,4,45,30,50]
 print("New Prediction input: ", test_x)
 new_prediction = lin.predict(sc.transform(np.array([test_x])))
 print("Prediction score:" , new_prediction)

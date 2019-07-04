@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May 29 17:18:06 2019
-
-@author: Sarwar
-"""
-
 from itertools import permutations
 
-N=8
+N=4
 sol=0
 cols = range(N)
 for combo in permutations(cols):                      

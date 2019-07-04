@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 9 17:09:17 2019
-
-@author: Sarwar
-"""
-
 from tkinter import *
 from tkinter import font
 
