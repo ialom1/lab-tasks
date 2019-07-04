@@ -1,0 +1,12 @@
+E->E+T|T
+T->T*F|F
+F->(E)|id
+
+S->SA+|A
+A->B*|B
+B->a
+
+S->ABx|Ay
+A->Bc|B
+B->b
+

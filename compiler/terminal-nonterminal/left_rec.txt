@@ -1,0 +1,15 @@
+E->TE'
+E'->+TE'|ε
+T->FT'
+T'->*FT'|ε
+F->(E)|id
+
+S->AS'
+S'->A+S'|ε
+A->B*|B
+B->a
+
+S->ABx|Ay
+A->Bc|B
+B->b
+

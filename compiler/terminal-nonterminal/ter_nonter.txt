@@ -1,0 +1,15 @@
+Terminal:
++,ε,*,(,),id
+Non-Terminal:
+E,T,E',F,T'
+
+Terminal:
++,ε,*,a
+Non-Terminal:
+S,A,S',B
+
+Terminal:
+x,y,c,b
+Non-Terminal:
+S,A,B
+
